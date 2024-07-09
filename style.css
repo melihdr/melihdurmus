@@ -1,0 +1,62 @@
+@font-face {
+  font-family: geist;
+  src: url(font/statics-otf/GeistMono-Medium.otf);
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: 'geist', monospace;
+  color: #e1e1e1;
+}
+
+.function-text {
+  margin-left: 60px;
+  margin-top: 60px;
+  width: 300px;
+  line-height: 22px;
+}
+
+
+.def-part {
+  display: inline-block;
+  color: #dddd25;
+}
+
+.name-part {
+  display: inline-block;
+  color: #18b6ff;
+}
+
+.all-return-part {
+  padding-left: 8px;
+}
+
+.return-part {
+  display: inline-block;
+}
+
+.return-text-part {
+  display: inline;
+  color: #1beb9e;
+}
+
+.line-sign {
+  width: 300px;
+  color: #e1e1e1;
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.first-element {
+  margin-left: 60px;
+  margin-top: 60px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.1s, color, 0.1s;
+}
+
+.first-element:hover {
+  background-color: #1beb9e;
+  color: #1a1a1a;
+}
