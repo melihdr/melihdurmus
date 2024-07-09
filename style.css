@@ -3,6 +3,10 @@
   src: url(font/statics-otf/GeistMono-Medium.otf);
 }
 
+.opened-part {
+  margin:0
+}
+
 body {
   background-color: #1a1a1a;
   font-family: 'geist', monospace;
@@ -42,11 +46,54 @@ body {
 
 .line-sign {
   width: 300px;
-  color: #e1e1e1;
+  color: #1beb9e;
   margin-left: 60px;
   margin-top: 60px;
   font-size: 20px;
 }
+
+.question-part {
+  margin-left: 60px;
+  margin-top: 45px;
+  width: 300px;
+}
+
+.answer-part {
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.yes-part {
+  color: #18b6ff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.yes-part:hover{
+  background-color: #18b6ff;
+  color: #1a1a1a;
+}
+
+.no-part {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #18b6ff;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.no-part:hover {
+  background-color: #18b6ff;
+  color: #1a1a1a;
+}
+
 
 .first-element {
   margin-left: 60px;
