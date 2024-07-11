@@ -14,28 +14,65 @@
     
     <div class="opened-part">opened-09.07.2024</div>
 
-    <div class="function-text">
+
+    <div class="columns">
+
       <div>
-        <div class="def-part">def</div> 
-        <div class="name-part">myProjects</div>():
-      </div> 
-      <div class="all-return-part">
-        <div class="return-part">return</div>
-        <div class="return-text-part">'A series of projects I've been struggling with.'</div>
-      </div>
-    </div>
 
-    <div>
-      <div class="question-part">Do you aware that energy can be neither created nor destroyed, only transformed from one form to another?</div>
-      <div class="answer-part">
-        <div class="yes-part">[Yes]</div>
-        <div class="no-part">[No]</div>
-      </div>
-    </div>
+        <div class="function-text">
+          <div>
+            <span class="def-part">def</span> 
+            <span class="name-part">myProjects</span>():
+          </div> 
+          <div class="all-return-part">
+            <span class="return-part">return</span>
+            <span class="return-text-part">'A series of projects I've been struggling with.'</span>
+          </div>
+        </div>
     
+        <div>
+          <div class="question-part">Do you aware that energy can be neither created nor destroyed, only transformed from one form to another?</div>
+          <div class="answer-part">
+            <button onclick="
+          
+              clickedTheYesAnswer();
+    
+            " class="js-yes-part yes-part">[Yes]</button>
+            <button onclick="
+            
+            clickedTheNoAnswer();
+    
+            " class="js-no-part no-part">[No]</button>
+          </div>
+        </div>
+        
+    
+        <div class="line-sign">------------------------</div>
+    
+        <div class="first-element">1.Rock Paper Scissors Game</div>
 
-    <div class="line-sign">------------------------</div>
+      </div>
 
-    <div class="first-element">1.Sudoku Solver</div>
+      <div class="display-project-page">
+        <div>
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; margin-top: 60px;  margin-bottom: 50px;">Rock Paper Scissors Game</div>
+          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+            <button onclick="playGame('rock');" style="margin-right: 10px;">Rock</button>
+            <button onclick="playGame('paper');" style="margin-right: 10px;">Paper</button>
+            <button onclick="playGame('scissors');" style="margin-right: 10px">Scissors</button>
+            <button onclick="resetScore();">Reset Score</button>
+          </div>
+          <div>
+            <p style="display: flex; flex-direction: row; justify-content: center; align-items: center;" class="js-moves"></p>
+            <p style="display: flex; flex-direction: row; justify-content: center; align-items: center;" class="js-result"></p>
+            <p style="display: flex; flex-direction: row; justify-content: center; align-items: center;" class="js-score"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="rock-paper-scissors.js"></script>
   </body>
 </html>
