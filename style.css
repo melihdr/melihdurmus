@@ -11,6 +11,12 @@ body {
   background-color: #1a1a1a;
   font-family: 'geist', monospace;
   color: #e1e1e1;
+  font-size: 16px;
+}
+
+button {
+  font-family: 'geist', monospace;
+  font-size: 16px;
 }
 
 .function-text {
@@ -22,12 +28,10 @@ body {
 
 
 .def-part {
-  display: inline-block;
   color: #dddd25;
 }
 
 .name-part {
-  display: inline-block;
   color: #18b6ff;
 }
 
@@ -36,11 +40,10 @@ body {
 }
 
 .return-part {
-  display: inline-block;
+  color: inherit;
 }
 
 .return-text-part {
-  display: inline;
   color: #1beb9e;
 }
 
@@ -67,6 +70,8 @@ body {
 }
 
 .yes-part {
+  background-color: transparent;
+  border: none;
   color: #18b6ff;
   display: grid;
   justify-content: center;
@@ -81,6 +86,9 @@ body {
 }
 
 .no-part {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -90,6 +98,12 @@ body {
 }
 
 .no-part:hover {
+  background-color: #18b6ff;
+  color: #1a1a1a;
+}
+
+.clicked-yes-button,
+.clicked-no-button {
   background-color: #18b6ff;
   color: #1a1a1a;
 }
@@ -107,3 +121,9 @@ body {
   background-color: #1beb9e;
   color: #1a1a1a;
 }
+
+.columns {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+}
+
