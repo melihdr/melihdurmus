@@ -1,0 +1,112 @@
+.display-project-page {
+  margin-left: 40px;
+
+}
+
+.function-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 50px
+}
+
+.formula-container {
+  display: flex;
+  justify-content: center;
+}
+
+.formula-image {
+  width: 25vw;
+  max-width: 400px;
+  min-width: 300px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.title-paragraph {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: clamp(15px, 1vw, 24px);
+}
+
+.first-paragraph-container {
+  display: flex;
+  justify-content: center;
+}
+
+.first-paragraph-container p {
+  width: 50vw;
+  font-size: clamp(15px, 1vw, 24px);
+}
+
+.second-paragraph-container {
+  display: flex;
+  justify-content: center;
+}
+
+.second-paragraph-container p {
+  width: 50vw;
+  font-size: clamp(15px, 1vw, 24px)
+}
+
+.input-and-calculate-elements {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 15px;
+}
+
+.input-container input {
+  padding: 6px;
+  font-family: monospace;
+  font-size: clamp(12px, 0.8vw, 20px);
+  border: none;
+  border-radius: 1px;
+  background-color: rgb(210, 210, 210);
+  color: #1a1a1a;
+}
+
+.button-container button {
+  padding: 4px;
+  border: none;
+  background-color: transparent;
+  color: #e1e1e1;
+  font-size: clamp(15px, 1vw, 24px);
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: rgb(210, 210, 210);
+  color: #1a1a1a
+}
+
+.display-the-answer {
+  display: flex;
+  justify-content: center;
+  font-size: clamp(15px, 1vw, 24px)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
