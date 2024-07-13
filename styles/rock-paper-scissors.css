@@ -1,0 +1,61 @@
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.display-moves,
+.display-result,
+.display-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.move-buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.move-buttons {
+  cursor: pointer;
+  border: none;
+  padding: 5px 4px;
+  background-color: #E0E1DD;
+  border-radius: 1px;
+  transition-duration: background-color 0.1s, color 0.1s;
+}
+
+.move-buttons:hover {
+  background-color: #1a1a1a;
+  color: #E0E1DD;
+}
+
+.reset-score-button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reset-score-button {
+  cursor: pointer;
+  border: none;
+  background-color: #E0E1DD;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 1px;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.reset-score-button:hover {
+  background-color: #1a1a1a;
+  color: #E0E1DD;
+}
+

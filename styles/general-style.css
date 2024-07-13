@@ -1,0 +1,133 @@
+@font-face {
+  font-family: geist;
+  src: url(font/statics-otf/GeistMono-Medium.otf);
+}
+
+.opened-part {
+  margin:0
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: 'geist', monospace;
+  color: #e1e1e1;
+  font-size: 16px;
+}
+
+button {
+  font-family: 'geist', monospace;
+  font-size: 16px;
+}
+
+.function-text {
+  margin-left: 60px;
+  margin-top: 60px;
+  width: 300px;
+  line-height: 22px;
+}
+
+
+.def-part {
+  color: #dddd25;
+}
+
+.name-part {
+  color: #18b6ff;
+}
+
+.all-return-part {
+  padding-left: 8px;
+}
+
+.return-part {
+  color: inherit;
+}
+
+.return-text-part {
+  color: #1beb9e;
+}
+
+.line-sign {
+  width: 300px;
+  color: #1beb9e;
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.question-part {
+  margin-left: 60px;
+  margin-top: 45px;
+  width: 300px;
+}
+
+.answer-part {
+  margin-left: 60px;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  column-gap: 10px;
+  margin-top: 10px;
+}
+
+.yes-part {
+  background-color: transparent;
+  border: none;
+  color: #18b6ff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.yes-part:hover{
+  background-color: #18b6ff;
+  color: #1a1a1a;
+}
+
+.no-part {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #18b6ff;
+  transition: background-color 0.1s, color 0.1s;
+}
+
+.no-part:hover {
+  background-color: #18b6ff;
+  color: #1a1a1a;
+}
+
+.clicked-yes-button,
+.clicked-no-button {
+  background-color: #18b6ff;
+  color: #1a1a1a;
+}
+
+
+.first-element {
+  background-color: transparent;
+  color: #e1e1e1;
+  border: none;
+  margin-left: 60px;
+  margin-top: 60px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.1s, color, 0.1s;
+}
+
+.first-element:hover {
+  background-color: #1beb9e;
+  color: #1a1a1a;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+}
+
+
