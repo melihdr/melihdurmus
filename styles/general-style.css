@@ -109,25 +109,27 @@ button {
 }
 
 
-.first-element {
+.first-element,
+.second-element {
   background-color: transparent;
   color: #e1e1e1;
   border: none;
   margin-left: 60px;
-  margin-top: 60px;
+  margin-top: 10px;
   display: inline-block;
   cursor: pointer;
   transition: background-color 0.1s, color, 0.1s;
 }
 
-.first-element:hover {
+.first-element:hover,
+.second-element:hover {
   background-color: #1beb9e;
   color: #1a1a1a;
 }
 
 .columns {
   display: grid;
-  grid-template-columns: 360px 1fr;
+  grid-template-columns: 1fr 17fr;
 }
 
 
