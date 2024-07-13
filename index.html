@@ -7,7 +7,8 @@
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <title>Melih Durmuş</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/general-style.css">
+  <link rel="stylesheet" href="styles/rock-paper-scissors.css">
 
   </head>
   <body>
@@ -18,7 +19,6 @@
     <div class="columns">
 
       <div>
-
         <div class="function-text">
           <div>
             <span class="def-part">def</span> 
@@ -49,30 +49,19 @@
     
         <div class="line-sign">------------------------</div>
     
-        <div class="first-element">1.Rock Paper Scissors Game</div>
+        <button class="js-first-element-button first-element">1.Rock Paper Scissors Game</button>
 
       </div>
 
-      <div class="display-project-page">
-        <div>
-          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; margin-top: 60px;  margin-bottom: 50px;">Rock Paper Scissors Game</div>
-          <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
-            <button onclick="playGame('rock');" style="margin-right: 10px;">Rock</button>
-            <button onclick="playGame('paper');" style="margin-right: 10px;">Paper</button>
-            <button onclick="playGame('scissors');" style="margin-right: 10px">Scissors</button>
-            <button onclick="resetScore();">Reset Score</button>
-          </div>
-          <div>
-            <p style="display: flex; flex-direction: row; justify-content: center; align-items: center;" class="js-moves"></p>
-            <p style="display: flex; flex-direction: row; justify-content: center; align-items: center;" class="js-result"></p>
-            <p style="display: flex; flex-direction: row; justify-content: center; align-items: center;" class="js-score"></p>
-          </div>
-        </div>
-      </div>
+
+
+      <div class="display-project-page"></div>
+
     </div>
 
+    <script src="scripts/left-part.js"></script>
+    <script src="scripts/rock-paper-scissors.js"></script>
+    <script src="scripts/open-rock-paper-scissors.js"></script>
 
-    <script src="script.js"></script>
-    <script src="rock-paper-scissors.js"></script>
   </body>
 </html>
