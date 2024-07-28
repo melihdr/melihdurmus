@@ -32,8 +32,11 @@ document.querySelector('.js-second-element-button').addEventListener(('click'), 
   playMusic();
 })
 
+document.querySelector('.js-third-element-button').addEventListener(('click'), () => {
+  playMusic();
+})
+
 function playMusic() {
   let audio = new Audio("click-sound.mp3");
   audio.play();
 }
-
