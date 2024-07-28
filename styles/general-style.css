@@ -110,7 +110,8 @@ button {
 
 
 .first-element,
-.second-element {
+.second-element,
+.third-element {
   background-color: transparent;
   color: #e1e1e1;
   border: none;
@@ -122,7 +123,8 @@ button {
 }
 
 .first-element:hover,
-.second-element:hover {
+.second-element:hover,
+.third-element:hover {
   background-color: #1beb9e;
   color: #1a1a1a;
 }
