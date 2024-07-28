@@ -1,0 +1,81 @@
+.mors-photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.mors-photo-image {
+  background-color: #7a7d7d;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: rgb(149, 148, 148);
+  border-width: 5px;
+  padding: 5px;
+  width: 350px;
+}
+
+.mors-input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.mors-input-text {
+  background-color: #e1e1e1;
+  padding: 5px;
+  border: none;
+  font-family: monospace;
+}
+
+.mors-radio-buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.mors-convert-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.mors-convert-button {
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: #e1e1e1;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.mors-convert-button:hover {
+  background-color: #7a7d7d;
+}
+
+.mors-output-text-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.mors-output-text {
+  background-color: #7a7d7d;
+}
+
+.morse-title-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 15px;
+}
+
+.morse-title {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
